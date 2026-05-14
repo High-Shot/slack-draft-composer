@@ -77,7 +77,17 @@ Your Slack user ID (for the mention search): right-click your name in Slack → 
 
 ### Step 6 — Connect your folder in Cowork
 
-When starting a Cowork session, connect `~/Documents/SlackResponder/` as your workspace folder. This lets the skill read your brand brains and run log.
+The skill reads your brand brains and run log from your local `SlackResponder/` folder. You need to connect it each time you start a Cowork session.
+
+1. Open the Cowork desktop app
+2. Start a new session (or open an existing one)
+3. Look for the **folder icon** in the bottom left of the chat input bar
+4. Click it and select **"Connect a folder"**
+5. Navigate to your `Documents/SlackResponder/` folder and click **Open**
+
+You'll see a confirmation that the folder is connected. The skill can now read your brand brains and run log.
+
+If you skip this step, the skill will still run but will have no brand context — drafts will be generic and the run log won't persist.
 
 ### Step 7 — Run it
 
