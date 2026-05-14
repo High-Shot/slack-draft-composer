@@ -1,0 +1,10 @@
+# Personal files — never commit these
+run-log.md
+
+# Personal brand brains — exclude all except the template and shared core
+brand-brains/*.md
+!brand-brains/_template.md
+!brand-brains/amazon-core.md
+
+# macOS
+.DS_Store
